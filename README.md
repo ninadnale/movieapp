@@ -1,2 +1,2 @@
 # movieapp
-This repository showcases a simple Spring Boot application exposing a Movie API.
+This repository hosts a simple Spring Boot application exposing APIs for crud operations on a movie database.
