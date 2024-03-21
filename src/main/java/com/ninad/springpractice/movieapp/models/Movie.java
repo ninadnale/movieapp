@@ -1,4 +1,4 @@
-package com.ninad.springpractice.movieapp;
+package com.ninad.springpractice.movieapp.models;
 
 import java.util.List;
 

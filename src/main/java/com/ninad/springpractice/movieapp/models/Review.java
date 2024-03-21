@@ -1,4 +1,4 @@
-package com.ninad.springpractice.movieapp;
+package com.ninad.springpractice.movieapp.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

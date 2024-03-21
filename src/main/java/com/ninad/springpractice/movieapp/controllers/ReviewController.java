@@ -1,4 +1,4 @@
-package com.ninad.springpractice.movieapp;
+package com.ninad.springpractice.movieapp.controllers;
 
 import java.util.Map;
 
@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.ninad.springpractice.movieapp.models.Review;
+import com.services.ReviewService;
 
 @RestController
 @RequestMapping("/api/v1/reviews")

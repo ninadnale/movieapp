@@ -1,10 +1,13 @@
-package com.ninad.springpractice.movieapp;
+package com.services;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.ninad.springpractice.movieapp.models.Movie;
+import com.ninad.springpractice.movieapp.repositories.MovieRepository;
 
 //In this class we will write database access methods
 @Service
