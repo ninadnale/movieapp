@@ -12,7 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ninad.springpractice.movieapp.models.Movie;
-import com.services.MovieService;
+
+import com.ninad.springpractice.movieapp.services.MovieService;
+
 
 @RestController
 @RequestMapping("/api/v1/movies")

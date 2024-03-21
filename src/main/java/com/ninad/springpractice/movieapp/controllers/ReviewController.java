@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ninad.springpractice.movieapp.models.Review;
-import com.services.ReviewService;
+
+import com.ninad.springpractice.movieapp.services.ReviewService;
 
 @RestController
 @RequestMapping("/api/v1/reviews")

@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
+
 @SpringBootApplication
 @RestController
+// @ComponentScan({"com.ninad.springpractice.movieapp.controllers", "com.ninad.springpractice.movieapp.services", "com.ninad.springpractice.movieapp.repositories", "com.ninad.springpractice.movieapp.models", "com.ninad.springpractice.movieapp.config"})
 public class MovieappApplication {
 	
 	// @Autowired
